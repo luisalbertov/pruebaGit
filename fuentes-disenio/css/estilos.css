@@ -1,0 +1,49 @@
+/*@font-face {
+    font-family: 'FuenteDescargada';
+    src: url(carpeta dentro de css);
+}*/
+
+body {
+    background: #599bde; /*fondo*/
+    max-width: 1024px; /* ancho maximo*/
+    margin: 0 auto;
+    font-family: 'Oswald', sans-serif;
+}
+body header {
+    background: #a7bdd4;
+    color: white; /* color de letra */
+    text-align: center;
+    padding: 10px;
+}
+body header h1 {
+    margin: 0 auto;
+    font-weight: 700;
+    text-shadow: 5px 5px #599bde;
+}
+body header nav ul li{
+    display: inline-block; /* rompe caja */
+    background: black;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 5px 5px white;
+    margin: 0 20px;
+}
+body header nav ul li:hover{
+    background: white;
+    color: black;
+    box-shadow: 5px 5px black;
+}
+footer{
+    background: #599bde;
+    height: 100px;
+}
+#seccion1 {
+    background: #FFF;
+    border: 3px solid #000;
+}
+#seccion1 article {
+    display: inline-block;
+    border: 2px solid red;
+    width: 48%;
+}
