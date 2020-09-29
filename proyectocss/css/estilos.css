@@ -1,0 +1,89 @@
+/* Selectores Principales*/
+
+/* Selector de etiquetas: Aplica a todas las 
+etiquetas con ese nombre.
+a {
+    background: red;
+} 
+*/
+
+/* Selector de clases: se hace referencia con un punto (.)
+.parrafo{
+    background: black;
+} 
+*/
+
+/* Selector de etiquetas: se hace referencia con un gato (#)*/
+#parrafo{
+    background: pink;
+}
+
+/* Selector universales: se hace referencia con asterisco (*),
+utilizar solo para resetar navegador
+*{
+    background: black
+}
+*/
+
+/* Selectores de atributos: */
+/* Se hace referencia al atributo con [], seleccionan los elementos 
+que tienen atributo*/
+
+[href]{
+    color: green;
+}
+
+/* Seleccionar los elementos que tienen ese atributo y ese valor */
+[href="#"] {
+    color: red;
+}
+/* Seleccionar los elementos que tienen ese atributo y ese 
+valor al menos una*/
+[href~="verde"] {
+    color: green;
+}
+/* Seleccionar los elementos que tienen ese atributo y 
+o empiecen por ese valor*/
+[class^="rojo"] {
+    color: purple;
+}
+
+/* Seleccionar el elemento que tienen ese atributo y exactamente 
+ese valor o empiecen por el valor seguido de un guion*/
+[class|="verde"] {
+    color: blue;
+}
+
+/* Seleccionar el elemento que tienen ese atributo 
+y terminan con ese valor*/
+[class$="rojo"] {
+    color: pink;
+}
+/* Seleccionar el elemento que tienen ese atributo 
+y contengan ese valor*/
+[class$="rojo"] {
+    color: orange;
+}
+
+/* Selectores combinadores */
+
+/*Selector de hermano adyacente:
+buscan todos los hermanos que esten debajo de el que compartan 
+el mismo padre*/
+h1 + h2 {
+    color: red;
+}
+/*Selector de hermano general:
+buscan todos los hermanos que esten debajo de el y compartan el
+mismo padre*/
+h1 ~ h3 {
+    color: green;
+}
+/*Selectores descendentes*/
+div span{
+    color: red;
+}
+/*Selectores de hijo directo, busca relacion directa*/
+p > span {
+    color: blue
+}
