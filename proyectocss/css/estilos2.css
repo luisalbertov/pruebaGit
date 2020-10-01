@@ -39,17 +39,27 @@ h2{
 }
 div{
     background: lightcoral;
+    height: 100px;
+    width: 100px;
 }
 a{
     background: lightgreen;
+    height: 100px;
 }
 span{
     background: red;
+    height: 1500px;
 }
 .caja1 {
     background: lightgreen;
-    padding: 10px;
-    margin: 10px;
-    border: 2px solid black;
+    /*padding: 10px;*/
+    /*margin-top: 50px;*/
+    /*border: 2px solid black;*/
     box-sizing: border-box;
+    /*margin: 10px 20px /* Y - X */
+    /*margin: 10 px 30px 10px 4px*/
+    padding: 0 30px 0 0;
+    border-width: 3px 10px 20px 4px;
+    border-style: solid dotted;
+    border-color: red yellow;
 }
