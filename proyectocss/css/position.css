@@ -79,3 +79,50 @@ y empiecen con ese valor*/
     right: 0;
     margin: auto;
 }
+
+/*Fixed*/
+
+body{
+    margin: 0 auto;
+    /*padding-top: 50px; /* Para separar el menu de el titulo */
+}
+.menu {
+    background: brown;
+    padding:  10px;
+    text-align: center;
+    font-size: 20px;
+    /*position: fixed;
+    width: 100%;
+    top: 0; /* para mantener el menu arriba */
+    position: sticky;
+    top: 0px;
+}
+.titulo {
+    margin: 0;
+}
+
+/* Sticky */
+.banner {
+    height: 200px;
+    background: darkblue;
+    color: white;
+    text-align: center;
+    line-height: 150px;
+}
+
+/* Display
+Permite definir como se coportan una caja con respecto a las adyacentes
+Inline, block, inline-block, none
+*/
+.linea{
+    background: chocolate;
+    display: none;
+    /*margin-right: 40px;*/
+    /* A los elementos en linea no les afecta los margenes y
+    paddings verticales*/
+    /*margin-bottom: 200px;*/
+}
+
+.bloque{
+    background: yellow;
+}

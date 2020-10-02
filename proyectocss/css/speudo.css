@@ -1,0 +1,29 @@
+/* Pseudoelementos
+Se utilizan para dar estilos a partes especificas
+
+Ejemplos:
+::first-letter - elementos bloques
+::first-line - elemento bloque
+::before
+::after
+::selection
+*/
+
+.titulo::first-letter {
+    color: red;
+    font-size: 50px;
+}
+.linea::first-letter {
+    color: red;
+    font-size: 50px;
+}
+.linea{
+    display: block;
+}
+.texto::first-line{
+    color: green;
+}
+.texto::selection{
+    background: red;
+    color: white;
+}
