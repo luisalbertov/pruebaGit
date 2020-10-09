@@ -1,0 +1,64 @@
+body{
+    margin: 0 auto;
+    max-width: 1024;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+header{
+    position: relative;
+}
+header nav {
+    border-radius:8px;
+    width: 97%;
+    margin: 0 auto;
+}
+header nav ul{
+    padding: 10px 0;
+}
+header nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.barra{
+    background-image: linear-gradient(#e55300 3%,#fca66e 20%,#e55300 50%);
+    color: white;
+    font-weight: 600;
+}
+.titulo{
+    color: white;
+    text-shadow: 1px 1px 1px grey, -1px -1px 1px grey;
+    font-size: 25px;
+    margin: 0;
+}
+.titulo-logo{
+    padding: 15px 25px 30px;
+}
+.redes{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+.seccion1, .aside{
+    display: inline-block;
+    vertical-align: top;
+}
+.seccion1{
+    width: 58%;
+}
+.seccion1 .articulo1{
+    text-align: center;
+}
+.seccion1 .articulo1 img{
+    width: 95%;
+}
+.aside{
+    width: 38%;
+}
+.articulo2{
+    color: grey;
+    font-weight: 900;
+    display: inline-block;
+}
+.img-post{
+    border: 10px solid #cccccc;
+}
