@@ -19,7 +19,7 @@ header nav ul li{
     display: inline-block;
     margin-right: 20px;
 }
-.barra{
+.barranav{
     background-image: linear-gradient(#e55300 3%,#fca66e 20%,#e55300 50%);
     color: white;
     font-weight: 600;
@@ -44,21 +44,81 @@ header nav ul li{
 }
 .seccion1{
     width: 58%;
+    margin-left: 20px;
 }
 .seccion1 .articulo1{
     text-align: center;
 }
 .seccion1 .articulo1 img{
-    width: 95%;
+    width: 98%;
 }
 .aside{
-    width: 38%;
+    width: 18%;
 }
 .articulo2{
     color: grey;
-    font-weight: 900;
     display: inline-block;
 }
 .img-post{
     border: 10px solid #cccccc;
+}
+.articulo2 div{
+    position: absolute;
+    display: inline-block;
+    width: 500px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    color: black;
+}
+.autor-post{
+    display: inline-block;
+    font-size: 14px;
+    background-color: rgb(245, 245, 245);
+    border-radius:8px;
+    width: 97%;
+    padding: 10px 10px;
+}
+.italica-post{
+    color: gray;
+}
+.boton{
+    background: #cccccc;
+    border-radius: 5px;
+    color: white;
+    height: 35px;
+    border: 0;
+}
+.aside{
+    background-color:rgb(245, 245, 245);
+}
+.barra{
+    background-image: linear-gradient(#e55300 3%,#fca66e 20%,#e55300 50%);
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    padding: 8px 0;
+    border-radius:8px;
+}
+.imagenes-publicidad{
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+}
+.publicidad-aside{
+    margin-bottom: 20px;
+}
+.busqueda{
+    margin: 20px;
+    border-radius:8px;
+    border: 1px solid gray;
+}
+.go{
+    border-radius: 100%;
+    border: 1px solid gray;
+    background: #cccccc;
+    color: white;
+}
+.categorias-aside ul li{
+    color: gray;
+    margin-bottom: 10px;
 }
