@@ -1,0 +1,94 @@
+body{
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+header{
+    background:	#fbfbfc;
+}
+header nav{
+    display: inline-block;
+    margin: 0 0 20px 550px;
+}
+header nav ul{
+    border-bottom: 2px solid black;
+    float: right;
+}
+header nav ul li{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 15px 50px 0; 
+    border-left: 2px solid black;
+}
+.logo{
+    margin: 20px 20px;
+    height: 120px;
+}
+#home{
+    border-left: none;
+    padding-left: 300px;
+}
+.seccion1{
+    padding-bottom: 50px;
+    background:	#fbfbfc;
+}
+.seccion1 div{
+    display: inline-block;
+    vertical-align: top;
+}
+.texto{
+    text-align: center;
+    margin: 0 180px 0 200px;
+    width: 300px;
+}
+.texto p{
+    text-align: justify;
+}
+.texto1{
+    margin: 30px 0 0 0;
+    font-size: 90px;
+    font-weight: 750;
+}
+.texto2{
+    margin: 0;
+    font-size: 50px;
+    font-weight: 700;
+}
+.texto3{
+    font-size: 14px;
+    font-weight: 600;
+}
+.imagen{
+    width: auto;
+    margin-right: 20px;
+}
+.imagen img{
+    width: 1000px;
+    height: 600px;
+}
+footer{
+    background: black;
+}
+footer div{
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px 50px 10px 150px;
+}
+.derecha{
+    float: right ;
+    width: 24%;
+}
+.derecha span{
+    color: #242222;
+}
+footer p{
+    color: #717271;
+}
+.textogrande{
+    color: #e4e4e4;
+    font-size: 30px;
+}
+.textoderecha{
+    text-align: right;
+}
